@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+
+.header{
+    background-color: #FF7F50;
+}
+
+.navbar{
+    padding-top: 10px!important;
+}
+
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    color: white!important;
+    font-size: 14px!important;
+    padding: 0 0 5px!important;
+    display: unset;
+}
+
+.navbar-brand img{
+    width: 115px;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px!important;
+}
+
+.navbar-toggler{
+    border: 0!important;
+    outline: none!important;
+    padding: initial!important;
+}
+
+.active-home{
+    border-bottom: 2px solid white;
+}
+
+
+.container a{
+    transition: 0.5s;
+    position: relative;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid white;
+    transform: rotate(10deg);
+    color: #fff;
+}
+.container h2,h3 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+img{
+    max-height: 200px;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF7F50;
+    border-color: #FF7F50;
+}

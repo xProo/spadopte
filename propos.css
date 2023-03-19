@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+
+.header{
+    background-color: #FF7F50;
+}
+
+.navbar{
+    padding-top: 10px!important;
+}
+
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    color: white!important;
+    font-size: 14px!important;
+    padding: 0 0 5px!important;
+    display: unset;
+}
+
+.container a{
+    
+    color: #5753cb;
+    transition: 0.5s;
+    position: relative;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid white;
+    transform: rotate(10deg);
+    color: #fff;
+}
+
+.navbar-brand img{
+    width: 115px;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px!important;
+}
+
+.navbar-toggler{
+    border: 0!important;
+    outline: none!important;
+    padding: initial!important;
+}
+
+.active-home{
+    border-bottom: 2px solid white;
+}
+
+
+.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+
+
+.explore{
+    margin: 150px 0;
+}
+
+
+
+.explore p{ 
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.explore a{
+    width: 170px;
+    padding: 8px 10px;
+    display: block;
+    background: #FF7F50;
+    text-decoration: none!important;
+    color: white!important;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.5);
+}
+
+
+.explore h2{
+    font-weight: bold;
+    line-height: 50px;
+}
+.explore a{
+    margin-bottom: 40px;
+}
